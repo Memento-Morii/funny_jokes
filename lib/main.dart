@@ -10,11 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         textTheme: TextTheme(
           headline1: TextStyle(
-            fontSize: 50,
+            fontSize: 40,
             fontWeight: FontWeight.bold,
             color: Colors.black,
             fontFamily: GoogleFonts.dosis().fontFamily,
@@ -29,6 +30,18 @@ class MyApp extends StatelessWidget {
             fontSize: 25,
             fontWeight: FontWeight.bold,
             color: Colors.black,
+            fontFamily: GoogleFonts.dosis().fontFamily,
+          ),
+          headline4: TextStyle(
+            fontSize: 15,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+            fontFamily: GoogleFonts.dosis().fontFamily,
+          ),
+          headline5: TextStyle(
+            fontSize: 40,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
             fontFamily: GoogleFonts.dosis().fontFamily,
           ),
           bodyText1: TextStyle(
