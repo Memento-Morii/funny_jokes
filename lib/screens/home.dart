@@ -84,7 +84,7 @@ class _HomeState extends State<Home> {
                               setState(() {
                                 loading = true;
                               });
-                              jokes = await Requests().getRandom();
+                              jokes = await Requests().getTop10();
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -108,7 +108,7 @@ class _HomeState extends State<Home> {
                               setState(() {
                                 loading = true;
                               });
-                              jokes = await Requests().getRandom();
+                              jokes = await Requests().getProgramming();
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(

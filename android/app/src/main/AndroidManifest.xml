@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.funny_jokes">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="funny_jokes"
         android:icon="@mipmap/ic_launcher">
